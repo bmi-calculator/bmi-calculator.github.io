@@ -15,32 +15,16 @@ Enter your weight in kilograms and your height in centimeters in the form below 
 <TD><INPUT TYPE=TEXT NAME=bmi     SIZE=8 ></TD>
 <TD><INPUT TYPE=TEXT NAME=my_comment size=35></TD>
 </TABLE>
-
 <P>
 <INPUT TYPE="button" VALUE="Let's see" onClick="computeform(this.form)">
 <INPUT TYPE="reset"  VALUE="Reset" onClick="ClearForm(this.form)">
 </FORM>
-
 <HR>
 
 
-<B>Disclaimer</B>: This form is based on the calculation of
-<A HREF="http://phaster.com/unpretentious/bmi.html"><I>"Body Mass Index"</I></A>
-and is only meant to be a demonstration of how Javascript(tm) could be used
-on a Web Page. Information it contains may not be accurate and is not designed
-or intended to serve as medical advice. I am not liable for any physical or
-psychological damages suffered as a result of using this script.
-<p>This free script provided by
-<a href="http://javascriptkit.com">JavaScript
-Kit</a></p>
-<hr>
+
 
 <SCRIPT LANGUAGE="JAVASCRIPT">
-<!-- hide this script tag's contents from old browsers
-
-//Body Mass calculator- by John Scott (johnscott03@yahoo.com)
-//Visit JavaScript Kit (http://javascriptkit.com) for script
-//Credit must stay intact for use
 
 function ClearForm(form){
 
@@ -118,5 +102,4 @@ function computeform(form) {
        }
        return;
 }
- // -- done hiding from old browsers -->
 </SCRIPT>
